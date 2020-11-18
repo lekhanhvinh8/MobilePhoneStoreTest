@@ -17,6 +17,7 @@ namespace MobilePhoneStore.Controllers
         {
             this._context = new MobilePhoneStoreModel();
         }
+
         public ActionResult Index()
         {
             return View();
