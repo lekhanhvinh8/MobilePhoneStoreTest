@@ -19,7 +19,7 @@ namespace MobilePhoneStore.Controllers
         }
         public ActionResult Index()
         {
-            return View(this._context);
+            return View("Index");
         }
     }
 }
