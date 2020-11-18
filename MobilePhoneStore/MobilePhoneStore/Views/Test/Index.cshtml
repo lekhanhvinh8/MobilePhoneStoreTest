@@ -1,0 +1,18 @@
+﻿@model MobilePhoneStore.Models.MobilePhoneStoreModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+</head>
+<body>
+    @foreach(var category in Model.Categories.ToList())
+    {
+        <p>@category.Name</p>
+    }
+</body>
+</html>
